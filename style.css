@@ -7,7 +7,16 @@
   font-weight: <weight>;
   font-style: normal;
 } */
+body{
+    margin: 0;
+    background-color:black
+}
 
+.container{
+    width: 595px;
+    height: 845px;
+    margin: auto;
+}
 
 h1{
     color: #53483F;
@@ -17,6 +26,9 @@ h1{
     font-weight: 800;
     line-height: 50px; /* 166.667% */
     letter-spacing: 0.9px;
+    margin-top: 0;
+    text-transform:uppercase;
+    margin-bottom: 11px;
 }
 
 h3{
@@ -27,12 +39,17 @@ font-style: normal;
 font-weight: 600;
 line-height: 20px; /* 133.333% */
 letter-spacing: 0.9px;
+margin: 0;
+padding-left: 7px
 }
 
 header{
     height: 133px;
     background-color: #EFEADD;
-    
+    padding-top: 18px;
+    padding-left: 13px;
+    position: relative;
+    overflow: hidden;
 }
 
 .Noto{
@@ -40,4 +57,10 @@ header{
     font-size: 32px;
     font-weight: 600;
     color: cornflowerblue
+}
+
+img{
+    position: absolute;
+    top: 0;
+    right:0
 }
