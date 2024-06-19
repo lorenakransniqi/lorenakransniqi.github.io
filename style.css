@@ -9,11 +9,30 @@
 } */
 
 
-.Garamond{
-    font-family: "EB Garamond", serif;
-    font-size: 32px;
-    font-weight: 600;
-    color:blue
+h1{
+    color: #53483F;
+    font-family: "EB Garamond";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.9px;
+}
+
+h3{
+    color: rgba(83, 72, 63, 0.88);
+font-family: "EB Garamond";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.9px;
+}
+
+header{
+    height: 133px;
+    background-color: #EFEADD;
+    
 }
 
 .Noto{
