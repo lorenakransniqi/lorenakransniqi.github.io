@@ -11,12 +11,14 @@
 
 .Garamond{
     font-family: "EB Garamond", serif;
-    font-size: "32px";
-    font-weight: 600
+    font-size: 32px;
+    font-weight: 600;
+    color:blue
 }
 
 .Noto{
     font-family: "Noto Sans", sans-serif;
-    font-size: "32px";
-    font-weight: 600
+    font-size: 32px;
+    font-weight: 600;
+    color: cornflowerblue
 }
