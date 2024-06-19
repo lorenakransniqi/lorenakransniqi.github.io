@@ -11,10 +11,12 @@
 
 .Garamond{
     font-family: "EB Garamond", serif;
-    font-size: "32px"
+    font-size: "32px";
+    font-weight: 600
 }
 
 .Noto{
     font-family: "Noto Sans", sans-serif;
-    font-size: "32px"
+    font-size: "32px";
+    font-weight: 600
 }
