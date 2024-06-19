@@ -12,10 +12,11 @@ body{
     background-color:black
 }
 
-.container{
+.container1{
     width: 595px;
     height: 845px;
     margin: auto;
+    background-color:#CDD9C5;
 }
 
 h1{
