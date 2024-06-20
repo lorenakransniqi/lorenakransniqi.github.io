@@ -42,8 +42,9 @@ font-weight: 600;
 line-height: 20px; /* 133.333% */
 letter-spacing: 0.9px;
 margin: 0;
-padding-left: 7px
+padding-left: 7px;
 }
+
 /* Beige Header Top-section */
 header{
     height: 133px;
@@ -63,9 +64,9 @@ header{
 img{
     position: absolute;
     top: 0;
-    right:0
+    right:0;
 }
-/*  */
+/* Space for column (formatting) */
 .grid{
     width: 562px;
     margin: auto;
@@ -75,15 +76,18 @@ img{
     padding-bottom: 30px;
     font-family: "Noto Sans", sans-serif;
 }
+/* Column sizing (BORDER TO BE REMOVED */
 .column{
     width: 273px;
     height: 656px;
     border: 1px solid red;
 }
+/* Header for professional experience (ex1) */
 .box-light{
     padding: 8px 12px 30px 12px; 
     color: #655E55;
 }
+/* Line separating titlebox from main info */
 .box-light h3{
     font-size: 14px;
     font-style: normal;
@@ -91,23 +95,77 @@ img{
     line-height: 12px; /* 85.714% */
     letter-spacing: 0.84px;
     border-bottom: 0.5px solid #BDC0B3;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
+/* Laura hair and beauty title */
 .box-light .ex1{
     font-size: 9px ;
     letter-spacing: 0.18px;
     line-height: 12px;
     margin-bottom: 5px;
-    
+    margin-left: 0;
+    margin-top: 25px;
 }
+/* Spacing between job role and place of work */
 .box-light div p{
     margin: 0;
 }
+/* Spacing and formatting of job role and length of work */
 .box-light .ex2{
     font-size: 7px;
     line-height: 12px;
     display: flex;
     justify-content: space-between;
-    
+}
+/* setting colour for background */
+.coloured-column {
+   background-color: rgba(239, 234, 221, 0.99);
+}
+/* Main info for box-light */
+.ex3{
+    color: #655E55;
+    font-family: "Noto Sans";
+    font-size: 9px;
+    line-height: 12px; 
+    padding-bottom:4.5px;
+}
+/* List formatting for all (hopefully) */
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 8px 0 0 0;
+    padding-inline-start: 11px;
+    unicode-bidi: isolate;
+}
+/* Fixing spacing between bulletpoints */
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+/* Vescom/Mad science Title */
+.box-light .ex4{
+    font-size: 9px ;
+    letter-spacing: 0.18px;
+    line-height: 12px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 0x;
+}
+/* Starting dark green columns */
+.box-dark{
+    padding: 8px 12px 30px 12px; 
+    color: #EFEADD;
+    background-color: #99A195;
 }
 
+.box-dark h3{
+    border-bottom: 0.5px solid #BDC0B3;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 85.714% */
+    letter-spacing: 0.84px;
+
+}
