@@ -121,6 +121,10 @@ img{
 .coloured-column {
    background-color: rgba(239, 234, 221, 0.99);
 }
+/* setting colour for green background */
+.dark-coloured-column{
+    background-color: #99A195;;
+}
 /* Main info for box-light */
 .ex3{
     color: #655E55;
@@ -154,11 +158,11 @@ li:not(:last-child) {
 }
 /* Starting dark green columns */
 .box-dark{
-    padding: 8px 12px 30px 12px; 
+    padding: 8px 12px 0px 12px; 
     color: #EFEADD;
     background-color: #99A195;
 }
-
+/* Header for education */
 .box-dark h3{
     border-bottom: 0.5px solid #BDC0B3;
     padding-bottom: 10px;
@@ -167,5 +171,56 @@ li:not(:last-child) {
     font-weight: 400;
     line-height: 12px; /* 85.714% */
     letter-spacing: 0.84px;
+}
+/* two sided columns for education */
+.flex-container {
+    display: flex;
+    justify-content:space-between;
+    padding-left:8px;
+    border-right:8px;
+    padding-right:2px;
+    margin: 0;
+    padding-bottom:0;
+}
+/* subtitles for education */
+.edu-titles{
+    color: #EFEADD;
+    font-family: "Noto Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5px; /* 120% */
+    letter-spacing: 0.2px;
+    padding-bottom: 10px
+}
+/* gcse grades formatting */
+.gcse-grades{
+    color: #EFEADD;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 200% */
+}
+/* specifying spacing between lists*/
+.gcse-grades li{
+    margin:0;
+    padding:0;
+}
+/* creating space between grades and subheading */
+.gcse-grades ul{
+    padding-top: 7px;
+    margin:0;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:0;
+}
 
+.a-level-list{
+    color: #EFEADD;
+    font-family: "Noto Sans";
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 3px;
+    padding-left: 5px;
 }
