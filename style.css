@@ -158,7 +158,7 @@ li:not(:last-child) {
 }
 /* Starting dark green columns */
 .box-dark{
-    padding: 8px 12px 0px 12px; 
+    padding: 8px 12px 3px 12px; 
     color: #EFEADD;
     background-color: #99A195;
 }
@@ -214,7 +214,7 @@ li:not(:last-child) {
     padding-right:0;
     padding-bottom:0;
 }
-
+/* formatting list for a level subjects in edu */
 .a-level-list{
     color: #EFEADD;
     font-family: "Noto Sans";
@@ -223,4 +223,19 @@ li:not(:last-child) {
     font-weight: 400;
     padding-top: 3px;
     padding-left: 5px;
+}
+/* spacing between info boxes on right hand side */
+.box-spacer{
+    padding-top:14.5px;
+}
+/* skill list formatting */
+.skill-list li{
+    padding-top:5px;
+    margin:0;
+    font-size:9px;
+}
+/* trying to shorten skills and qualification box */
+.sq-box .box-light.coloured-column{
+    padding-top:3px;
+    padding-bottom:20px;
 }
